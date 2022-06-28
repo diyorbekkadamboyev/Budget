@@ -35,6 +35,16 @@
 
 .budget-item {
     list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.budget-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .budget-text {
@@ -42,4 +52,45 @@
     font-family: sans-serif;
     font-size: 24px;
     font-weight: 550;
+    margin-bottom: 15px;
+}
+
+.budget-span {
+    display: block;
+    font-family: sans-serif;
+    font-weight: 520;
+    font-size: 46px;
+    color: #008000;
+}
+
+.budget-expenses-span {
+    display: block;
+    font-family: sans-serif;
+    font-weight: 520;
+    font-size: 46px;
+    color: rgb(205, 1, 1);
+}
+
+.budget-balance-span {
+    display: block;
+    font-family: sans-serif;
+    font-weight: 520;
+    font-size: 46px;
+    
+}
+
+.budget-img,.budget-expenses-img,.budget-balance-img {
+    margin-bottom: 15px;
+}
+
+.budget-expense-title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.budget-expense-value {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
